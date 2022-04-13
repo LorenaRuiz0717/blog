@@ -12,13 +12,13 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
 
     #Dropdown menu
     # - identifier: dropdown
@@ -93,7 +93,7 @@ params:
     subtitle: "Front-end developer"
     content: "I am a woman with great initiative, I like to learn constantly, that's why I am an entrepreneur, I want to help companies continue to grow and learn in the process."
 
-    image: /images/me.png
+    image: /images/lorePhoto1.jpg
     button:
       enable: true
       name: "Resume"
@@ -112,7 +112,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/lore2.jpg"
+    image: "/images/Lore1.jpg"
     content: |-
       Front-End Developer, with knowledge in hotel management, my experience has allowed me to have a focus on the user, discover and solve their needs. Here are some of the technologies I have worked with 
     skills:
@@ -140,7 +140,8 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+         I am currently working as  Junior Front end developer at Jamgo Tech in Amsterdam, Holanda. I am learn about JamStack and how use this tecnology for create page of easy maintainability and update of content.
 
       - job: "Owner Entrepreneurship "
         company: "Happy Pets Art"
@@ -231,8 +232,9 @@ params:
         # content:  2do Puesto
         url: https://www.credential.net/8b944c7d-5fa8-4d32-bc02-a72488a499d2
       - title: Scrum Fundamental | Soy Líder.Net
+        image: /images/ScrumStudy.png
         # content: We are developed a product which can help others.
-        # url: https://example.com
+        url: https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-PaulaLorenaRuizDiaz.-860667.pdf
       # - title: Google Summer of Code
       #   content: Contributed to a open source project.
       #   url: https://example.com
