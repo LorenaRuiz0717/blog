@@ -39,10 +39,10 @@ Menus:
       weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Lorena Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  # favicon: "/fav.png"
 
   theme:
     disableThemeToggle: false
@@ -88,11 +88,11 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
+    intro: "Hola, bienvenid@"
+    title: "Lorena."
+    subtitle: "Conociendo hugo, creando una nueva web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    image: /images/2.jpg
     button:
       enable: true
       name: "Resume"
@@ -100,12 +100,12 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/LorenaRuiz0717
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/lorenruiz/
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:
@@ -113,64 +113,64 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+        Desarrolladora Front-End, con conocimientos en administración hotelera, mi experiencia me ha permitido tener un enfoque en el usuario, descubrir y resolver sus necesidades.
+        Soy una persona con gran iniciativa que le gusta aprender constantemente por eso soy emprendedora y quiero ayudar a las empresas a seguir creciendo
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
       items:
         - "HTML"
         - "CSS"
         - "JavaScript"
         - "React"
         - "Node"
-        - "Express"
+        - "Hugo"
+        - "Boostrap Studio"
+        - "Penpot"
 
   # Experience
   experience:
     enable: true
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
+      - job: "Junior Front end developer"
+        company: "Jamgo Tech"
         companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        date: "Oct 2021 - Actual"
         featuredLink:
           enable: true
           name: "View the project"
           url: "https://example.com"
         content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Propietaria Emprendimiento"
+        company: "Happy Pets Art"
+        companyUrl: "https://www.facebook.com/Happypetsart"
+        date: "Jul 2015 - Actual"
         featuredLink:
           enable: true
           url: "https://example.com"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          # content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+         Emprendimiento familiar, dedicado al diseño y mano factura de productos personalizados para mascotas, enfocados en confort y durabilidad.
+         Esta experiencia me ha permitido desarrollar diferentes habilidades como estudio y apertura de mercado, creación, diseño, negociación con clientes directos siempre satisfaciendo, cumpliendo y superando las expectativas de los mismos.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
+      - job: "Administradora de Servicio y Cocina"
+        company: "Grupo 5G-Restaurante La Jugueteria"
+        companyUrl: "https://www.facebook.com/Happypetsart"
+        date: "Jul 2015 - Actual"
         featuredLink:
           enable: true
           url: "https://example.com"
+        info:
+          enable: true
+          # content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+         Restaurante La Juguetería, encargada de la operación, tuve la oportunidad de liderar y entrenar grandes grupos desarrollando una habilidad en manejo de personal, estandarización de servicio y atención al cliente. 
+         Aprendí la importancia y manejo de presupuestos siempre dinámica y proactivamente optimizando procesos día a día.
+         En esta empresa tuve un crecimiento personal y profesional que me permitió tener diferentes cargos y experiencias, ascendiendo por mi capacidad de aprendizaje y liderazgo.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
 
       - job: "UI/UX Designer"
         company: "Netflix"
